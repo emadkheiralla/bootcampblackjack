@@ -1,4 +1,5 @@
 ﻿require('rootpath')();
+require('mongojs');
 var express = require('express');
 var app = express();
 var session = require('express-session');
@@ -8,6 +9,8 @@ var config = require('config.json');
 
 
 
+//mongodb://blackjack:Monday17$@ds059306.mlab.com:59306/blackjack
+//mongoose.connect("mongodb://blackjack:Monday17$@ds059306.mlab.com:59306/blackjack")
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.use(bodyParser.urlencoded({ extended: false }));
