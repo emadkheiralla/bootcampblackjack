@@ -402,7 +402,7 @@
 
 		$(score).html(this.getScore());
 		$('#cash span').html(player.getCash());
-		player.getBank();
+		$('#bank span').html(player.getBank());
 	};
 
 	Number.prototype.formatMoney = function(c, d, t) {
@@ -712,30 +712,36 @@
 	});
 
 	
-	let currVal = parseInt($('#wager').val());
+	let currVal = 0;
 
 	$('#1').on('click', function() {
-		currVal += $('#wager').val($('#1').val());
+		currVal += parseInt($('#1').val(), 10);
+		$('#wager').val(currVal);
 	});
 
 	$('#5').on('click', function() {
-		currVal += $('#wager').val($('#5').val());
+		currVal += parseInt($('#5').val(), 10);
+		$('#wager').val(currVal);
 	});
 
 	$('#10').on('click', function() {
-		currval += $('#wager').val($('#10').val());
+		currVal += parseInt($('#10').val(), 10);
+		$('#wager').val(currVal);
 	});
 
 	$('#25').on('click', function() {
-		currVal += $('#wager').val($('#25').val());
+		currVal += parseInt($('#25').val(), 10);
+		$('#wager').val(currVal);
 	});
 
 	$('#100').on('click', function() {
-		currVal += $('#wager').val($('#100').val());
+		currVal += parseInt($('#100').val(), 10);
+		$('#wager').val(currVal);
 	});
 
 	$('#500').on('click', function() {
-		currVal += $('#wager').val($('#500').val());
+		currVal += parseInt($('#500').val(), 10);
+		$('#wager').val(currVal);
 	});
 	
 	
@@ -749,7 +755,6 @@
 	$('#actions:not(#wager), #game, #myModal').disableSelection();
 	$('#newGame, #cancel').on('click', function(e) { e.preventDefault(); });
 	$('#cancel').on('click', function() { $('#myModal').modal('hide'); });
-	$('#wager').val(0);
 	$('#cash span').html(player.getCash());
 	player.getBank();
     }
