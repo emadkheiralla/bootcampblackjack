@@ -7,8 +7,8 @@
     "url": "https://github.com/cornflourblue/mean-stack-registration-login-example.git",
     "scripts": {
       "test": "echo\"Error: no test specified\" && exit 1",
-      "start": "node app.js"  
-    },
+      "start": "node app.js"
+    }
   },
   "dependencies": {
     "bcryptjs": "^2.1.0",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^5.0.2",
     "lodash": "^3.10.0",
     "mongodb": "^2.1.16",
+    "mongojs": "^2.4.0",
     "mongoskin": "^2.1.0",
     "q": "^1.4.1",
     "request": "^2.58.0",
