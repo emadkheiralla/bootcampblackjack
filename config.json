@@ -1,5 +1,5 @@
 ﻿{
-    "connectionString": "mongodb://blackjack:Moneday17$@ds059306.mlab.com:59306/blackjack",
+    "connectionString": "mongodb://blackjack:Monday17$@ds059306.mlab.com:59306/blackjack",
     "apiUrl": "http://localhost:3000/api",
     "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
 }
