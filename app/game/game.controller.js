@@ -715,27 +715,27 @@
 	let currVal = parseInt($('#wager').val());
 
 	$('#1').on('click', function() {
-		currVal += parseInt($('#1').val());
+		currVal += $('#wager').val($('#1').val());
 	});
 
 	$('#5').on('click', function() {
-		currVal = parseInt($('#1').val());
+		currVal += $('#wager').val($('#5').val());
 	});
 
 	$('#10').on('click', function() {
-		currVal = parseInt($('#1').val());
+		currval += $('#wager').val($('#10').val());
 	});
 
 	$('#25').on('click', function() {
-		currVal = parseInt($('#1').val());
+		currVal += $('#wager').val($('#25').val());
 	});
 
 	$('#100').on('click', function() {
-		currVal = parseInt($('#1').val());
+		currVal += $('#wager').val($('#100').val());
 	});
 
 	$('#500').on('click', function() {
-		currVal = parseInt($('#1').val());
+		currVal += $('#wager').val($('#500').val());
 	});
 	
 	
