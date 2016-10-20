@@ -5,8 +5,31 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var expressJwt = require('express-jwt');
 var config = require('config.json');
+var mongoose = require('mongoose');
 
 
+//mongoose connection setup
+
+var databaseUri = 'mongodb://heroku_ctz7kxwf:9ldmtf4ruh463opf1e4n2ritkm@ds031183.mlab.com:31183/heroku_ctz7kxwf';
+if (process.env.MONGODB_URI){
+	mongoose.connect(process.env.MONGODB_URI);
+} else {
+	mongoose.connect(databaseUri);
+}
+
+
+var db = mongoose.connection;
+
+db.on('error', function(err){
+	console.log('Mongoose Error: ', err)
+});
+
+db.once('open', function(){
+	console.log('Mongoose connection successful.')
+
+});
+
+//end of mongoose setup
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
