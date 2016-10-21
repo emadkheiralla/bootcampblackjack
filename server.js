@@ -10,7 +10,7 @@ var mongoose = require('mongoose');
 
 //mongoose connection setup
 
-var databaseUri = 'mongodb://heroku_ctz7kxwf:9ldmtf4ruh463opf1e4n2ritkm@ds031183.mlab.com:31183/heroku_ctz7kxwf';
+var databaseUri = 'mongodb://localhost/test';
 if (process.env.MONGODB_URI){
 	mongoose.connect(process.env.MONGODB_URI);
 } else {
