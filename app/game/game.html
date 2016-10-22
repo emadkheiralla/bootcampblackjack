@@ -1,6 +1,6 @@
 
     <div id="game">
-        <div id="alert" class="alert alert-error hide"><span></span></div>
+        <div id="alert" class="alert hide"><span></span></div>
         <div id="dealer">
             <div id="dhand"></div>
         </div>
@@ -38,17 +38,15 @@
             </div>
         </div>
     </div>
-    <div id="myModal" class="modal hide fade">
+    <div id="myModal" class="modal fade">
         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h3>Out of cash!</h3>
+            <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
+            <h3 style="color:#31B0D5;">Out of cash!</h3>
         </div>
         <div class="modal-body">
             <p>Dang! You lost your bankroll dude! Care for a rebuy?</p>
-        </div>
-        <div class="modal-footer">
-            <a href="#" id="cancel" class="btn">Go to hell!</a>
-            <a href="#" id="newGame" class="btn btn-primary">Sure, why not!</a>
+            <a href="#" id="cancel" class="btn btn-danger">Go to hell!</a>
+            <a href="#" id="newGame" class="btn btn-info">Sure, why not!</a>
         </div>
     </div>
         
