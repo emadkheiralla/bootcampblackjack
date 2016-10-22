@@ -5,8 +5,9 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var expressJwt = require('express-jwt');
 var config = require('config.json');
+var mongoose = require('mongoose');
 
-
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/api');
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -29,6 +30,6 @@ app.get('/', function (req, res) {
 });
 
 // start server
-var server = app.listen(3000, function () {
+var server = app.listen(process.env.PORT || 3000, function () {
     console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
 });

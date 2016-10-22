@@ -1,5 +1,5 @@
 ﻿{
-    "connectionString": "mongodb://blackjack:Monday17$@ds059306.mlab.com:59306/blackjack",
+    "connectionString": "mongodb://heroku_qqv49jqz:33haiorkouugeut85317ffs26v@ds063856.mlab.com:63856/heroku_qqv49jqz",
     "apiUrl": "http://localhost:3000/api",
-    "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+    "secret": "SUPERTOPSECRETSECRET"
 }
