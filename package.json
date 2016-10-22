@@ -21,14 +21,8 @@
     "jsonwebtoken": "^5.0.2",
     "lodash": "^3.10.0",
     "mongodb": "^2.1.16",
-<<<<<<< HEAD
     "mongoose": "^4.6.4",
-=======
-<<<<<<< HEAD
     "mongoose": "^4.6.4",
-=======
->>>>>>> 74bad187989b3312c99cfa0f1493cc8161adf577
->>>>>>> 0e5ef8468a72120939af91a5382951aee3cf7b02
     "mongoskin": "^2.1.0",
     "q": "^1.4.1",
     "request": "^2.58.0",
