@@ -33,7 +33,6 @@
                 <button id="stand" class="btn" disabled>Stand</button>
                 <button id="double" class="btn" disabled>Double Down</button>
                 <button id="split" class="btn" disabled>Split</button>
-                <button id="insurance" class="btn" disabled>Insurance</button>
                 <strong>Wager:</strong> $<input id="wager" class="input-small" type="text" />
             </div>
         </div>
@@ -41,12 +40,34 @@
     <div id="myModal" class="modal fade">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
-            <h3 style="color:#31B0D5;">Out of cash!</h3>
+            <h3 style="color:#31B0D5;">Dang! You lost your bankroll dude!</h3>
         </div>
         <div class="modal-body">
-            <p>Dang! You lost your bankroll dude! Care for a rebuy?</p>
+            <p>Care for a rebuy?</p>
             <a href="#" id="cancel" class="btn btn-danger">Go to hell!</a>
             <a href="#" id="newGame" class="btn btn-info">Sure, why not!</a>
+        </div>
+    </div>
+    <div id="insuranceModal" class="modal fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
+            <h3 style="color:#31B0D5;">Insurance is open!</h3>
+        </div>
+        <div class="modal-body">
+            <p>Care to insure your hand?</p>
+            <a href="#" id="noIns" class="btn btn-danger">No way!</a>
+            <a href="#" id="yesIns" class="btn btn-info">Hell yes!</a>
+        </div>
+    </div>
+    <div id="evenMoneyModal" class="modal fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
+            <h3 style="color:#31B0D5;">Insurance is open!</h3>
+        </div>
+        <div class="modal-body">
+            <p>You want even money?</p>
+            <a href="#" id="noEM" class="btn btn-danger">Nope!</a>
+            <a href="#" id="yesEM" class="btn btn-info">Hell yes!</a>
         </div>
     </div>
         
