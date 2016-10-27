@@ -471,7 +471,7 @@
 		var	rank  = card.getRank(),
 				suit  = card.getSuit(),
 				color = 'red',
-				posx  = 380,
+				posx  = 0,
 				posy  = 380,
 				speed = 200,
 				cards = ele + ' .card-' + i;

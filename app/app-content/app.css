@@ -138,10 +138,11 @@ span.suit {
 }
 
 #actions {
-    margin: 15px 0 0 0;
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 30;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input#wager { margin-left: 5px; position: relative; top: 4px }
