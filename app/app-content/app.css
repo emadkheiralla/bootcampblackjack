@@ -31,7 +31,13 @@ body{
 
 #account {
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 1000px;
+    height: 1035px;
+    width: 100vmax;
+    position: relative;
+}
+
+#home {
+    height: 1035px;
     width: 100vmax;
     position: relative;
 }
@@ -139,7 +145,7 @@ span.suit {
 
 #actions {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     margin-left: 600px;
 }
 
