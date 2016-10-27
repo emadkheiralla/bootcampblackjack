@@ -1,0 +1,18 @@
+body {
+    padding-top: 100px;
+    background: : url('img/loginbg.png') no-repeat !important;
+    background-position: cover;
+    height: 1035px;
+    width: 100%;
+}
+
+.form-container {
+    width: 400px;
+    margin: auto;
+}
+
+.credits {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+}
