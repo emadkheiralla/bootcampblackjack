@@ -471,8 +471,8 @@
 		var	rank  = card.getRank(),
 				suit  = card.getSuit(),
 				color = 'red',
-				posx  = 1400,
-				posy  = 600,
+				posx  = 0,
+				posy  = 0,
 				speed = 200,
 				cards = ele + ' .card-' + i;
 
@@ -495,7 +495,7 @@
 			);
 
 			if(ele === '#phand') {
-				posy  = 800;
+				posy  = 200;
 				speed = 500;
 				$(ele + ' div.card-' + i).attr('id', 'pcard-' + i);
 
