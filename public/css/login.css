@@ -24,10 +24,7 @@
     color: #ddd;
 }
 
-/* unvisited link */
-a:link{
-    color: #5cb85c;
-}
+
 
 /* visited link */
 a:visited {
