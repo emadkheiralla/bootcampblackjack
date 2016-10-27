@@ -761,7 +761,7 @@
 			}
 		} else {
 			player.setWager(-wager);
-			$('#alert').removeClass('hide').addClass('alert-warning');
+			$('#alert').removeClass('hide alert-info alert-success alert-danger').addClass('alert-warning');
 			showAlert('You don\'t have enough for insurance!');
 		}
 	});
