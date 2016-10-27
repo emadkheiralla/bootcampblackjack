@@ -139,9 +139,8 @@ span.suit {
 
 #actions {
     position: absolute;
-    bottom: -30px;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: -65px;
+    margin-left: 50%;
 }
 
 input#wager { margin-left: 5px; position: relative; top: 4px }
