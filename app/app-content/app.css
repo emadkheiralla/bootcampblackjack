@@ -149,7 +149,7 @@ span.suit {
     margin-left: 600px;
 }
 
-input#wager { margin-left: 5px; position: relative; top: 2px }
+input#wager { margin-left: 5px; position: relative;}
 
 #money, #money:before {
     border-radius: 5px;
