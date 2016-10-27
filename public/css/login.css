@@ -23,20 +23,3 @@
 #login, #un, #pw, #cr{
     color: #ddd;
 }
-
-
-
-/* visited link */
-a:visited {
-    color: #ddd;
-}
-
-/* mouse over link */
-a:hover {
-    color: #ddd;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
