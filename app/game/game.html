@@ -1,63 +1,62 @@
+<div id="game">
+    <div id="dealer">
+        <div id="dhand"></div>
+    </div>
+    <div id="alert" class="alert hide"><span></span></div>
+    <div id="player">
+        <div id="phand"></div>
+    </div>
+    
+    <div class="row">
+        <div id="money">
+            <span id="cash">Cash: $<span></span></span>
+            <div id="bank">Winnings: $<span></span></div>
+        </div>
+    </div>
 
-    <div id="game">
-        <div id="dealer">
-            <div id="dhand"></div>
-        </div>
-        <div id="alert" class="alert hide"><span></span></div>
-        <div id="player">
-            <div id="phand"></div>
-        </div>
-        
-        <div class="row">
-            <div id="money">
-                <span id="cash">Cash: $<span></span></span>
-                <div id="bank">Winnings: $<span></span></div>
-            </div>
-        </div>
-
-        <div>
-            <div id="chips">
-                <button id="1" value="1" class="btn btn-default btn-circle btn-xl">1</button>
-                <button id="5" value="5" type="button" class="btn btn-danger btn-circle btn-xl">5</button>
-                <button id="10" value="10" type=button" class="btn btn-info btn-circle btn-xl">10</button>
-                <button id="25" value="25" type="button" class="btn btn-success btn-circle btn-xl">25</button>
-                <button id="100" value="100" type="button" class="btn btn-primary btn-circle btn-xl">100</button>
-                <button id="500" value="500" type="button" class="btn btn-warning btn-circle btn-xl">500</button>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div id="actions">
-                <button id="deal" class="btn btn-primary btn-lg">Deal!</button>
-                <button id="hit" class="btn btn-lg" disabled>Hit</button>
-                <button id="stand" class="btn btn-lg" disabled>Stand</button>
-                <button id="double" class="btn btn-lg" disabled>Double Down</button>
-                <button id="split" class="btn btn-lg" disabled>Split</button>
-                <strong>Wager:</strong> $<input id="wager" class="input-small" type="text" />
-            </div>
+    <div>
+        <div id="chips">
+            <button id="1" value="1" class="btn btn-default btn-circle btn-xl">1</button>
+            <button id="5" value="5" type="button" class="btn btn-danger btn-circle btn-xl">5</button>
+            <button id="10" value="10" type=button" class="btn btn-info btn-circle btn-xl">10</button>
+            <button id="25" value="25" type="button" class="btn btn-success btn-circle btn-xl">25</button>
+            <button id="100" value="100" type="button" class="btn btn-primary btn-circle btn-xl">100</button>
+            <button id="500" value="500" type="button" class="btn btn-warning btn-circle btn-xl">500</button>
         </div>
     </div>
-    <div id="myModal" class="modal fade">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
-            <h3 style="color:#31B0D5;">Dang! You lost your bankroll dude!</h3>
-        </div>
-        <div class="modal-body">
-            <p>Care for a rebuy?</p>
-            <a href="#" id="cancel" class="btn btn-danger">Go to hell!</a>
-            <a href="#" id="newGame" class="btn btn-info">Sure, why not!</a>
-        </div>
-    </div>
-    <div id="insuranceModal" class="modal fade">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
-            <h3 style="color:#31B0D5;">Insurance is open!</h3>
-        </div>
-        <div class="modal-body">
-            <p>Care to insure your hand?</p>
-            <a href="#" id="noIns" class="btn btn-danger">No way!</a>
-            <a href="#" id="yesIns" class="btn btn-info">Hell yes!</a>
+    
+    <div class="row">
+        <div id="actions">
+            <button id="deal" class="btn btn-primary btn-lg">Deal!</button>
+            <button id="hit" class="btn btn-lg" disabled>Hit</button>
+            <button id="stand" class="btn btn-lg" disabled>Stand</button>
+            <button id="double" class="btn btn-lg" disabled>Double Down</button>
+            <button id="split" class="btn btn-lg" disabled>Split</button>
+            <strong>Wager:</strong> $<input id="wager" class="input-small" type="text" />
         </div>
     </div>
+</div>
+<div id="myModal" class="modal fade">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
+        <h3 style="color:#31B0D5;">Dang! You lost your bankroll dude!</h3>
+    </div>
+    <div class="modal-body">
+        <p>Care for a rebuy?</p>
+        <a href="#" id="cancel" class="btn btn-danger">Go to hell!</a>
+        <a href="#" id="newGame" class="btn btn-info">Sure, why not!</a>
+    </div>
+</div>
+<div id="insuranceModal" class="modal fade">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" style="color: #31B0D5;" aria-hidden="true">&times;</button>
+        <h3 style="color:#31B0D5;">Insurance is open!</h3>
+    </div>
+    <div class="modal-body">
+        <p>Care to insure your hand?</p>
+        <a href="#" id="noIns" class="btn btn-danger">No way!</a>
+        <a href="#" id="yesIns" class="btn btn-info">Hell yes!</a>
+    </div>
+</div>
     
         

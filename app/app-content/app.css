@@ -28,10 +28,16 @@ body{
   
 }
 
+#account {
+    color: #333;
+    font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
+    height: 1000px;
+    width: 100vmax;
+    position: relative;
+}
+
 #game {
     background: transparent url('/images/bjbg.png') no-repeat center fixed;
-  
-
     background-size: 135vh;
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
@@ -39,24 +45,6 @@ body{
     width: 100vmax;
     position: relative;
 }
-/*@media (min-width: 980px){
-
-
-
-    
-}
-@media (min-width: 768px){
-    #game{
-        background-size: 50%;
-    }
-
-}
-@media (min-width: 640px){
-    #game{
-        background-size: 30%;
-    }
-
-}*/
 
 div[id*="pcard"] .popover { left: -95px !important; }
 div[id*="dcard"] .popover { left: -105px !important; }
