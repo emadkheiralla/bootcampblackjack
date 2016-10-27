@@ -44,7 +44,7 @@ body{
 
 #game {
     background: transparent url('/images/bjbg.png') no-repeat center fixed;
-    background-size: 135vh;
+    background-size: 132vh;
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
     height: 1035px;
@@ -145,7 +145,7 @@ span.suit {
 
 #actions {
     position: absolute;
-    bottom: -5px;
+    bottom: 5px;
     margin-left: 600px;
 }
 
