@@ -11,7 +11,7 @@ body{
 
 #chips {
   position: absolute;
-  bottom: 160px;
+  bottom: 150px;
   left:0;
   width: 100vw;
 }
@@ -41,9 +41,9 @@ body{
     background-size: 135vh;
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 100vh;
+    height: 100%;
     width: 100vmax;
-    position: relative;
+    position: fixed;
 }
 
 div[id*="pcard"] .popover { left: -95px !important; }
