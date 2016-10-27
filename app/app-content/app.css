@@ -11,7 +11,7 @@ body{
 
 #chips {
   position: absolute;
-  bottom: 210px;
+  bottom: 180px;
   left:0;
   width: 100vw;
 }
@@ -140,7 +140,7 @@ span.suit {
 #actions {
     position: absolute;
     bottom: 0;
-    margin-left: 720px;
+    margin-left: 600px;
 }
 
 input#wager { margin-left: 5px; position: relative; top: 4px }
