@@ -140,7 +140,7 @@ span.suit {
 #actions {
     text-align: center;
     position: absolute;
-    bottom: 30;
+    top: 70%;
     margin-left: auto;
     margin-right: auto;
 }
