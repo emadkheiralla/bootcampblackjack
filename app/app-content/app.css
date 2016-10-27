@@ -100,7 +100,7 @@ div[class*="card"] {
     margin: 0 5px;
     position: absolute;
     right: 0;
-    width: 79px;
+    width: 87px;
 }
 
 .down {
@@ -181,7 +181,7 @@ input#wager { margin-left: 5px; position: relative;}
     opacity: 0.95;
     position: relative;
     text-align: center;
-    top: 50%;
+    top: 49%;
     width: 500px;
     z-index: 0;
 }
