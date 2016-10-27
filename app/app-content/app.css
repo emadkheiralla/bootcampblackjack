@@ -40,7 +40,7 @@ body{
     background-size: 135vh;
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 1000px;
+    height: 100vmax;
     width: 100vmax;
     position: relative;
 }
