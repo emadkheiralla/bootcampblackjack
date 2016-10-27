@@ -11,7 +11,7 @@ body{
 
 #chips {
   position: fixed;
-  bottom: 165px;
+  bottom: 135px;
   width: 100vmax;
 }
 
@@ -37,7 +37,6 @@ body{
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
     height: 100vmax;
     width: 100vmax;
-    margin: 10px 25px 0px 25px;
     position: relative;
 }
 /*@media (min-width: 980px){
