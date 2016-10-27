@@ -472,7 +472,7 @@
 				suit  = card.getSuit(),
 				color = 'red',
 				posx  = 402,
-				posy  = 182,
+				posy  = 400,
 				speed = 200,
 				cards = ele + ' .card-' + i;
 
@@ -495,7 +495,7 @@
 			);
 
 			if(ele === '#phand') {
-				posy  = 360;
+				posy  = 600;
 				speed = 500;
 				$(ele + ' div.card-' + i).attr('id', 'pcard-' + i);
 
@@ -586,7 +586,7 @@
 				$('#alert').removeClass('hide alert-info alert-warning alert-danger').addClass('alert-success');
 				result = 'You got Blackjack!';
 			}
-			
+
 			if(pscore <= 21) {
 				winnings = wager * 2;
 				player.setCash(winnings);
