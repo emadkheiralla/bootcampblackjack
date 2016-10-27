@@ -10,8 +10,9 @@ body{
 
 
 #chips {
-  position: fixed;
+  position: absolute;
   bottom: 210px;
+  left:400px;
   width: 100vw;
 }
 
