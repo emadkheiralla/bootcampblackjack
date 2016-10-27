@@ -11,7 +11,7 @@ body{
 
 #chips {
   position: absolute;
-  bottom: 155px;
+  bottom: 175px;
   left:0;
   width: 100vw;
 }
@@ -145,7 +145,7 @@ span.suit {
 
 #actions {
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     margin-left: 600px;
 }
 
