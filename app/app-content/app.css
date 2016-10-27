@@ -10,9 +10,10 @@ body{
 
 
 #chips {
-  position: fixed;
+  position: relative;
   bottom: 210px;
-  width: 100vmax;
+  width: 100vh;
+  height: 100vh;
 }
 
 .btn-circle.btn-xl {
