@@ -1,8 +1,8 @@
 body {
     padding-top: 100px;
-    background: : url('img/loginbg.png');
-    repeat: no-repeat;
+    background-image: url('img/loginbg.png');
     background-position: cover;
+    background-repeat: no-repeat;
     height: 1035px;
     width: 100%;
 }
