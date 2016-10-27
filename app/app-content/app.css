@@ -35,13 +35,6 @@ body{
     position: relative;
 }
 
-#home {
-    font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 1000px;
-    width: 100vmax;
-    position: relative;
-}
-
 #game {
     background: transparent url('/images/bjbg.png') no-repeat center fixed;
     background-size: 135vh;
