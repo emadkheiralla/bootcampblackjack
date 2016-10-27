@@ -3,8 +3,8 @@ body {
     background-image: url('/../images/login.jpeg');
     background-repeat: no-repeat;
     background-position: cover;
-    height: 1035px;
-    width: 100%;
+    height: 100%;
+    width: 1400px;
 }
 
 .form-container {
