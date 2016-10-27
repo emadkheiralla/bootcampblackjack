@@ -134,8 +134,7 @@ span.suit {
 }
 
 #result {
-    position: relative;
-    bottom: 0;
+    position: absolute;
 }
 
 #actions {
