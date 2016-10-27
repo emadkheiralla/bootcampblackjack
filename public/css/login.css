@@ -24,6 +24,22 @@
     color: #ddd;
 }
 
-a{
+/* unvisited link */
+a:link{
     color: #5cb85c;
+}
+
+/* visited link */
+a:visited {
+    color: #ddd;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ddd;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
