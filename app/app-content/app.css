@@ -103,14 +103,14 @@ div[class*="card"] {
 
 span.pos-0 {
     left: 0;
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 
 span.pos-1 {
     bottom: 0;
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-    position: fixed;
+    position: absolute;
     right: 0;
     transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -134,7 +134,7 @@ span.suit {
 }
 
 #result {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
