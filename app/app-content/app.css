@@ -13,6 +13,7 @@ body{
   position: fixed;
   bottom: 210px;
   width: 100vmax;
+  height: 100vmax;
 }
 
 .btn-circle.btn-xl {
