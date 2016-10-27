@@ -12,7 +12,7 @@ body{
 #chips {
   position: absolute;
   bottom: 210px;
-  left:400px;
+  left:0;
   width: 100vw;
 }
 
