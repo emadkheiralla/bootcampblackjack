@@ -473,7 +473,7 @@
 				color = 'red',
 				posx  = 0,
 				posy  = 200,
-				speed = 200,
+				speed = 600,
 				cards = ele + ' .card-' + i;
 
 		if(i > 0) {
@@ -495,7 +495,7 @@
 			);
 
 			if(ele === '#phand') {
-				posy  = 400;
+				posy  = 800;
 				speed = 500;
 				$(ele + ' div.card-' + i).attr('id', 'pcard-' + i);
 
