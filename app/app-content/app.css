@@ -176,7 +176,7 @@ input#wager { margin-left: 5px; position: relative; top: 4px }
     opacity: 0.95;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 34.5%;
     width: 500px;
     z-index: 0;
 }
