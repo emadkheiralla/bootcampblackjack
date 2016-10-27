@@ -12,8 +12,7 @@ body{
 #chips {
   position: fixed;
   bottom: 165px;
-  width: 55vw;
-  padding-left: 200px;
+  width: 100vmax;
 }
 
 .btn-circle.btn-xl {
@@ -37,6 +36,7 @@ body{
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
     height: 100vmax;
+    width: 100vmax;
     margin: 10px 25px 0px 25px;
     position: relative;
 }
