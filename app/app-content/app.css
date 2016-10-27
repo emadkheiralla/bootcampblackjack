@@ -31,7 +31,7 @@ body{
 
 #account {
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 75vh;
+    height: 1000px;
     width: 100vmax;
     position: relative;
 }
@@ -41,9 +41,9 @@ body{
     background-size: 135vh;
     color: #333;
     font: 14px/17px Helvetica, Arial, Verdana, sans-serif;
-    height: 800px;
-    width: 100vw;
-    position: fixed;
+    height: 700px;
+    width: 100vmax;
+    position: relative;
 }
 
 div[id*="pcard"] .popover { left: -95px !important; }
