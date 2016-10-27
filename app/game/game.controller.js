@@ -472,7 +472,7 @@
 				suit  = card.getSuit(),
 				color = 'red',
 				posx  = 0,
-				posy  = 0,
+				posy  = 200,
 				speed = 200,
 				cards = ele + ' .card-' + i;
 
@@ -495,7 +495,7 @@
 			);
 
 			if(ele === '#phand') {
-				posy  = 200;
+				posy  = 400;
 				speed = 500;
 				$(ele + ' div.card-' + i).attr('id', 'pcard-' + i);
 
